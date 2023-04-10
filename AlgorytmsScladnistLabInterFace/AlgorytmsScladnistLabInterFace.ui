@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AlgorytmsScladnistLabInterFaceClass</class>
+ <widget class="QMainWindow" name="AlgorytmsScladnistLabInterFaceClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>716</width>
+    <height>224</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AlgorytmsScladnistLabInterFace</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Perfect Hash</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>234</x>
+      <y>30</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Optimal Binary Tree</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>30</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Binomial Heap</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>716</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="AlgorytmsScladnistLabInterFace.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AlgorytmsScladnistLabInterFaceClass</receiver>
+   <slot>ShowPerfectHashWindow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>111</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>191</x>
+     <y>223</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>AlgorytmsScladnistLabInterFaceClass</receiver>
+   <slot>ShowOptimalBinaryTreeWindow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>329</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>435</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>AlgorytmsScladnistLabInterFaceClass</receiver>
+   <slot>ShowBinomialHeapWindow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>507</x>
+     <y>109</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>636</x>
+     <y>155</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ShowPerfectHashWindow()</slot>
+  <slot>ShowOptimalBinaryTreeWindow()</slot>
+  <slot>ShowBinomialHeapWindow()</slot>
+ </slots>
+</ui>
